@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 0;
+    margin-bottom: 24px;
+    background-color: rgba(225, 225, 221, 0.1);
+}
+
+li {
+    font-size: 16px;
+    width: 420px;
+    flex: 1 1 0;
+    padding: 8px 20px;
+}
+
+.head {
+    font-size: 32px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.head-two {
+    font-size: 24px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+    padding: 8px 0;
+}
+
+.dis {
+    font-size: 16px;
+    width: 468px;
+    display: flex;
+    flex: 1 1 0;
+    padding: 16px;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+div {
+    background-color: rgba(225, 225, 221, 0.4);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#last-list {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
